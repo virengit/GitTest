@@ -19,6 +19,18 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    private func someProdCode() {
+        print("code")
+    }
+    
+    private func moreProdCode(progress: Int) {
+        if progress > 0 {
+            print("making progress")
+        } else {
+            print("you slackin")
+        }
+    }
 
 }
 
