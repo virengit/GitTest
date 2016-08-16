@@ -27,9 +27,14 @@ class ViewController: UIViewController {
     private func moreProdCode(progress: Int) {
         if progress > 0 {
             print("making progress")
+            print("what if I do stuff here?")
         } else {
             print("you slackin")
         }
+    }
+    
+    private func lastBitOfCode() {
+        print("thats it")
     }
 
 }
